@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="loan department">
+	<Listeners>
+		<Listener name="test.MyListeners"/>
+	
+	</Listeners>
+  <test  name="personal loan">
+    <classes>
+      <class name="test.Day4"/>
+      <class name="test.Day2"/>
+      <class name="test.Day1">
+      	<methods>
+      		<include name="demo"></include>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="car loan">
+  	<classes>
+  		<class name="test.Day3">
+  			<methods>
+  				<exclude name="mobile.*"/>
+  			</methods>
+  		</class>
+  		
+  	</classes>
+  		
+  </test>
+</suite> <!-- Suite -->

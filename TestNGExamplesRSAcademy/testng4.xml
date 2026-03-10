@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<parameter name="URL" value="Flipkart.com"></parameter>
+
+  <test  name="Test">
+    <classes>
+      <class name="test.Day4"/>
+      <class name="test.Day2"/>
+      <class name="test.Day3"/>
+      <class name="test.Day1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
