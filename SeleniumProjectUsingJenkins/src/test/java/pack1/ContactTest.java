@@ -25,7 +25,7 @@ public class ContactTest {
 	
 	@Test
 	public void deleteContactTest() {
-		System.out.println("execute deletecontactTest");
+		System.out.println("execute deletecontactTest1");
 	}
 
 }
